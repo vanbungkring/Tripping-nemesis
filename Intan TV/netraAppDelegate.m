@@ -17,8 +17,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+	// Override point for customization after application launch.
+	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+	[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+	
+	netraMainViewController *mainController = [[netraMainViewController alloc]init];
+	
+	mainNavigation = [[UINavigationController alloc]initWithRootViewController:mainController];
+	
+	[mainNavigation.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
+	
+   	self.window.rootViewController = mainNavigation;
     [self.window makeKeyAndVisible];
     return YES;
 }

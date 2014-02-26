@@ -22,6 +22,12 @@
 		D04AE4C018BE0BDE00D045AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04AE4A418BE0BDE00D045AE /* CoreData.framework */; };
 		D04AE4C818BE0BDE00D045AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D04AE4C618BE0BDE00D045AE /* InfoPlist.strings */; };
 		D04AE4CA18BE0BDE00D045AE /* Intan_TVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE4C918BE0BDE00D045AE /* Intan_TVTests.m */; };
+		D04AE4F618BE1CCE00D045AE /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D04AE4EE18BE1CCE00D045AE /* navbar@2x.png */; };
+		D04AE50118BE1D3800D045AE /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE4F918BE1D3800D045AE /* MMDrawerBarButtonItem.m */; };
+		D04AE50218BE1D3800D045AE /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE4FC18BE1D3800D045AE /* MMDrawerController.m */; };
+		D04AE50318BE1D3800D045AE /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE4FE18BE1D3800D045AE /* MMDrawerVisualState.m */; };
+		D04AE50418BE1D3800D045AE /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE50018BE1D3800D045AE /* UIViewController+MMDrawerController.m */; };
+		D04AE50818BE1D8800D045AE /* netraMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04AE50718BE1D8800D045AE /* netraMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		D04AE4C518BE0BDE00D045AE /* Intan TVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Intan TVTests-Info.plist"; sourceTree = "<group>"; };
 		D04AE4C718BE0BDE00D045AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D04AE4C918BE0BDE00D045AE /* Intan_TVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intan_TVTests.m; sourceTree = "<group>"; };
+		D04AE4EE18BE1CCE00D045AE /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		D04AE4F818BE1D3800D045AE /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		D04AE4F918BE1D3800D045AE /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		D04AE4FA18BE1D3800D045AE /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		D04AE4FB18BE1D3800D045AE /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		D04AE4FC18BE1D3800D045AE /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		D04AE4FD18BE1D3800D045AE /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		D04AE4FE18BE1D3800D045AE /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		D04AE4FF18BE1D3800D045AE /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		D04AE50018BE1D3800D045AE /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		D04AE50618BE1D8800D045AE /* netraMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netraMainViewController.h; path = app/view/code/netraMainViewController.h; sourceTree = SOURCE_ROOT; };
+		D04AE50718BE1D8800D045AE /* netraMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = netraMainViewController.m; path = app/view/code/netraMainViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,7 @@
 		D04AE4A618BE0BDE00D045AE /* Intan TV */ = {
 			isa = PBXGroup;
 			children = (
+				D04AE4EC18BE1CCE00D045AE /* app */,
 				D04AE4AF18BE0BDE00D045AE /* netraAppDelegate.h */,
 				D04AE4B018BE0BDE00D045AE /* netraAppDelegate.m */,
 				D04AE4B518BE0BDE00D045AE /* Images.xcassets */,
@@ -151,6 +170,97 @@
 				D04AE4C618BE0BDE00D045AE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04AE4EC18BE1CCE00D045AE /* app */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4ED18BE1CCE00D045AE /* assets */,
+				D04AE4EF18BE1CCE00D045AE /* helper */,
+				D04AE4F018BE1CCE00D045AE /* library */,
+				D04AE4F118BE1CCE00D045AE /* view */,
+			);
+			path = app;
+			sourceTree = SOURCE_ROOT;
+		};
+		D04AE4ED18BE1CCE00D045AE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4EE18BE1CCE00D045AE /* navbar@2x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		D04AE4EF18BE1CCE00D045AE /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		D04AE4F018BE1CCE00D045AE /* library */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4F718BE1D3800D045AE /* MMDrawerController */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		D04AE4F118BE1CCE00D045AE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4F218BE1CCE00D045AE /* code */,
+				D04AE4F518BE1CCE00D045AE /* xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D04AE4F218BE1CCE00D045AE /* code */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4F318BE1CCE00D045AE /* center */,
+				D04AE4F418BE1CCE00D045AE /* left */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		D04AE4F318BE1CCE00D045AE /* center */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE50618BE1D8800D045AE /* netraMainViewController.h */,
+				D04AE50718BE1D8800D045AE /* netraMainViewController.m */,
+			);
+			path = center;
+			sourceTree = "<group>";
+		};
+		D04AE4F418BE1CCE00D045AE /* left */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = left;
+			sourceTree = "<group>";
+		};
+		D04AE4F518BE1CCE00D045AE /* xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		D04AE4F718BE1D3800D045AE /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				D04AE4F818BE1D3800D045AE /* MMDrawerBarButtonItem.h */,
+				D04AE4F918BE1D3800D045AE /* MMDrawerBarButtonItem.m */,
+				D04AE4FA18BE1D3800D045AE /* MMDrawerController+Subclass.h */,
+				D04AE4FB18BE1D3800D045AE /* MMDrawerController.h */,
+				D04AE4FC18BE1D3800D045AE /* MMDrawerController.m */,
+				D04AE4FD18BE1D3800D045AE /* MMDrawerVisualState.h */,
+				D04AE4FE18BE1D3800D045AE /* MMDrawerVisualState.m */,
+				D04AE4FF18BE1D3800D045AE /* UIViewController+MMDrawerController.h */,
+				D04AE50018BE1D3800D045AE /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +341,7 @@
 			files = (
 				D04AE4AB18BE0BDE00D045AE /* InfoPlist.strings in Resources */,
 				D04AE4B618BE0BDE00D045AE /* Images.xcassets in Resources */,
+				D04AE4F618BE1CCE00D045AE /* navbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04AE50318BE1D3800D045AE /* MMDrawerVisualState.m in Sources */,
 				D04AE4AD18BE0BDE00D045AE /* main.m in Sources */,
+				D04AE50818BE1D8800D045AE /* netraMainViewController.m in Sources */,
+				D04AE50418BE1D3800D045AE /* UIViewController+MMDrawerController.m in Sources */,
+				D04AE50218BE1D3800D045AE /* MMDrawerController.m in Sources */,
+				D04AE50118BE1D3800D045AE /* MMDrawerBarButtonItem.m in Sources */,
 				D04AE4B418BE0BDE00D045AE /* Intan_TV.xcdatamodeld in Sources */,
 				D04AE4B118BE0BDE00D045AE /* netraAppDelegate.m in Sources */,
 			);
